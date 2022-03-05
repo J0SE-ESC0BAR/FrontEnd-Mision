@@ -8,13 +8,22 @@
 body{
     background-color:#131515;
     color: #F3FFB6;
+    text-align: center ;
 }
 h2{
     font-family: 'Roboto Slab', sans-serif;
     color: #006DAA;
 }
+.menu{
+    text-align: center ;
+}
 label{
     font-size: 20px;
+}
+ul, ol{
+    
+	text-align: left;
+	display: inline-block;
 }
 li {
     font-family: 'Source Sans Pro',sans-serif;
