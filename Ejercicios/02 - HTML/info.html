@@ -1,37 +1,185 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de</title>
-    <link rel="stylesheet" href="estilos.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panadero</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <!--Imagen de logo-->
-    
-        <a class="logo" href="index.html">
-          <img src="LogoPasteleriav3.png" alt="LogoPastelería"/>
-          <h1>Pasteleria</h1>
-        </a>
-        <nav><!--Barra de navegacion-->
-            <a href="index.html" class="nav-link">Inicio</a>
-            <a href="formulario.html" class="nav-link">Nuevo pedido</a>
-            <a href="info.html" class="nav-link">Lista de pedidos</a>
-            <a href="contact.html" class="nav-link">Contacto</a>
-          </nav>
-      </header>
-      <table style="border: 1px solid rgb(8, 7, 7)">
+  <header>
+    <!--Imagen de logo-->
 
-        <tr>
-          <td>Celda 1</td>
-          <td>Celda 2</td>
-        </tr>
-        <tr>
-          <td>Celda 4</td>
-          <td>Celda 5</td>
-        </tr>
-      </table>
+    <a class="logo" href="index.html">
+      <img src="LogoPasteleriav3.png" alt="LogoPastelería" />
+      <h1>Pasteleria</h1>
+    </a>
+    <nav>
+      <!--Barra de navegacion-->
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="formulario.html" class="nav-link">Nuevo pedido</a>
+      <a href="info.html" class="nav-link">Panadero</a>
+      <a href="contact.html" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+  <div class="formulario">
+    <table>
+      <tr><th colspan="2">Información para el pastelero</th></tr>
+      <tr>
+        <td>
+          <table class="inf">
+            <tr>
+              <th colspan="2">Pedidos</th>
+            </tr>
+            <tr>
+              <td class="cabecera">Numero de pedido</td>
+              <td class="cuerpo">01</td>
+            </tr>
+            <tr>
+              <td>Nombres:</td>
+              <td>Matías</td>
+            </tr>
+            <tr>
+              <td>Apellidos:</td>
+              <td>Avila</td>
+            </tr>
+            <tr>
+              <td>Telefono:</td>
+              <td>3430420352</td>
+            </tr>
+            <tr>
+              <td>Correo electrónico:</td>
+              <td>mavila@hotmail.com</td>
+            </tr>
+            <tr>
+              <td>Descripción:</td>
+              <td>Pastel de vainilla con chantilly con mi nombre</td>
+            </tr>
+            <tr>
+              <td>Sabores</td>
+              <td>Vainilla, fresas</td>
+            </tr>
+            <tr>
+              <td>Adornos</td>
+              <td>chantilly</td>
+            </tr>
+          </table>
+      
+          <table class="inf">
+            </tr>
+            <tr>
+              <td class="cabecera">Numero de pedido</td>
+              <td class="cuerpo">02</td>
+            </tr>
+            <tr>
+              <td>Nombres:</td>
+              <td>Rodrigo</td>
+            </tr>
+            <tr>
+              <td>Apellidos:</td>
+              <td>Méndez</td>
+            </tr>
+            <tr>
+              <td>Telefono:</td>
+              <td>6304423826</td>
+            </tr>
+            <tr>
+              <td>Correo electrónico:</td>
+              <td>rodrigo262@hotmail.com</td>
+            </tr>
+            <tr>
+              <td>Descripción:</td>
+              <td>pastel para niño de batman</td>
+            </tr>
+            <tr>
+              <td>Sabores</td>
+              <td>Chocolate, Galleta</td>
+            </tr>
+            <tr>
+              <td>Adornos</td>
+              <td>chantilly</td>
+            </tr>
+          </table>
+          <table class="inf">
+            </tr>
+            <tr>
+              <td class="cabecera">Numero de pedido</td>
+              <td class="cuerpo">03</td>
+            </tr>
+            <tr>
+              <td>Nombres:</td>
+              <td>Valeria</td>
+            </tr>
+            <tr>
+              <td>Apellidos:</td>
+              <td>Sánchez</td>
+            </tr>
+            <tr>
+              <td>Telefono:</td>
+              <td>7294861936</td>
+            </tr>
+            <tr>
+              <td>Correo electrónico:</td>
+              <td>vsanchez262@hotmail.com</td>
+            </tr>
+            <tr>
+              <td>Descripción:</td>
+              <td>Pastel de frutas con fresas picada</td>
+            </tr>
+            <tr>
+              <td>Sabores</td>
+              <td>Limon, Naranja, Fresas</td>
+            </tr>
+            <tr>
+              <td>Adornos</td>
+              <td>fresas con mermelada, Piña picada</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <th>Ingrdientes disponibles</th>
+              <th>Adornos disponibles</th>
+            </tr>
+            <tr>
+              <td>
+                <table class="inf">
+                  <tr><td class="cabecera">Chocolate</td><td class="cabecera">10 lib.</td></tr>
+                  <tr><td>Azucar </td><td>20 k.</td></tr>
+                  <tr><td>Arina </td><td>20 lib.</td></tr>
+                  <tr><td>Leche </td><td>20 lt.</td></tr>
+                  <tr><td>huevo </td><td>60</td></tr>
+                  <tr><td>Piñas</td><td>10</td></tr>
+                  <tr><td>Vainilla </td><td>5 lt.</td></tr>
+                  <tr><td>Limón</td><td>5 lib.</td></tr>
+                  <tr><td>Naranja  </td><td>10 lib.</td></tr>
+                  <tr><td>Fresas  </td><td>5 lib.</td></tr>
+                  <tr><td>Galleta </td><td>5 lib.</td></tr>
+                </table>
+              </td>
+              <td>
+                <table class="inf">
+                  <tr><td class="cabecera">Galleta </td><td class="cabecera">5 lib.</td></tr>
+                  <tr><td>Chantilly </td><td>10</td></tr>
+                  <tr><td>Vela de cumpleaños</td><td>30</td></tr>
+                  <tr><td>Muñeco de superhéroe </td><td>20</td></tr>
+                  <tr><td>Novio y novia para bodas</td><td>10</td></tr>
+                </table>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    <p>&#169; Copyright All rights reserved</p>
+  </footer>
 </body>
+
 </html>

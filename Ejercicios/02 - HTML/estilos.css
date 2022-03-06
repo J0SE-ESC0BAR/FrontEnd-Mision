@@ -1,89 +1,147 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto+Slab:wght@200;300;500;700&family=Source+Sans+Pro:wght@200;400&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Roboto+Slab:wght@200;300;500;700&family=Source+Sans+Pro:wght@200;400&family=Ubuntu:wght@300;400;500;700&display=swap");
 /* {   
     font-family: 'Lora', serif;
     font-family: 'Roboto Slab', serif;
     font-family: 'Source Sans Pro', sans-serif;
     font-family: 'Ubuntu', sans-serif;
 }*/
-body{
-    background-color:#caf0f8;
-    margin: 0;
+body {
+  background-color: #caf0f8;
+  margin: 0;
 }
-header{
-    display: flex;
-    height: 100px;
-    background-color: #ffb9e4;
-    justify-content: space-between;
-    align-items: center;
+header {
+  display: flex;
+  height: 100px;
+  background-color: #ffb9e4;
+  justify-content: space-between;
+  align-items: center;
 }
-main{
-    background-color: #94d2bd;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 6px;
+main {
+  background-color: #94d2bd;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
 }
-.formulario{
-    background-color: #94d2bd;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 6px;
+.formulario {
+  background-color: #94d2bd;
+  margin: 10px 200px;
+  padding: 10px;
+  border-radius: 6px;
 }
-.text{
-    width: 300px; 
-    height: 30px;
+input {
+  width: 20px;
+  height: 20px;
 }
-footer{
-    background-color: dodgerblue;
-    color:mediumblue;
-    padding: 20px;
+.text {
+  width: 225px;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    font-family: 'Ubuntu','Lora',sans-serif;
-    color: blueviolet;
-    font-size: 20px;
-    text-decoration: none;
+footer {
+  background-color: #eed3b1;
+  color: black;
+  padding: 20px;
 }
-.logo img{
-    height: 100px;
-    margin-right: 15px;
-    margin-left: 10px;
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: "Ubuntu", "Lora", sans-serif;
+  color: blueviolet;
+  font-size: 20px;
+  text-decoration: none;
 }
-nav a{
-    font-family: 'Ubuntu','Lora',sans-serif;
-    color: blueviolet;
-    text-decoration: none;
-    padding-right: 15px;
+.logo img {
+  height: 100px;
+  margin-right: 15px;
+  margin-left: 10px;
 }
-nav a:hover{
-    color: fuchsia;
+nav a {
+  font-family: "Ubuntu", "Lora", sans-serif;
+  color: blueviolet;
+  text-decoration: none;
+  padding-right: 15px;
 }
-.boton{
-    width: 300px; 
-    height: 30px;
+nav a:hover {
+  color: fuchsia;
 }
-caption{
-    font-family: 'Roboto Slab', sans-serif;
-    color: #264653;
-    font-size: 25px;
+.botons {
+  margin-left: auto;
+  margin-right: auto;
 }
-h1{
-    display: inline-block;
+.boton {
+  margin-left: 300px;
+  margin-right: 25px;
+  width: 200px;
+  height: 40px;
+  color: #264653;
+  background-color: bisque;
+  border-radius: 6px;
+  font-size: large;
+  font-family: "Ubuntu", "Lora", sans-serif;
 }
-label{
-    font-size: 20px;
+h1 {
+  display: inline-block;
 }
-ul, ol{
-    
-	text-align: left;
-	display: inline-block;
+label {
+  font-size: 22px;
+}
+ul,
+ol {
+  text-align: left;
+  display: inline-block;
 }
 li {
-    font-family: 'Source Sans Pro',sans-serif;
-    color: black;
-    font-size: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  font-size: 20px;
 }
-td {
-    padding: 3px;
+caption {
+  font-family: "Roboto Slab", sans-serif;
+  color: #264653;
+  font-size: 25px;
+  width: 400px;
+}
+
+
+.bodyIndex {
+  margin: 20px auto;
+}
+.inf{
+    border-collapse:collapse; 
+    border: none;
+    margin: 20px 30px;
+}
+ .inf td {
+  border: 1px solid rgb(8, 7, 7);
+  padding: 2px;
+  background-color: #caf0f8;
+  
+  
+}
+.inf .cabecera {
+  width: 150px;
+}
+.inf .cuerpo {
+  width: 220px;
+}
+
+.formulario th{
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: #264653;
+  font-size: 20px;
+  width: 220px
+}
+form td {
+  padding: 4px;
+  color: darkslateblue;
+}
+.check {
+  width: 20px;
+  height: 20px;
+}
+.imagen {
+  margin-left: 100px;
+  background-color: #7f97d652;
+  border-radius: 3%;
+  width: 600px;
+  height: 700px;
 }

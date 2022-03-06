@@ -17,10 +17,11 @@
       <img src="LogoPasteleriav3.png" alt="LogoPastelería" />
       <h1>Pasteleria</h1>
     </a>
-    <nav><!--Barra de navegacion-->
+    <nav>
+      <!--Barra de navegacion-->
       <a href="index.html" class="nav-link">Inicio</a>
       <a href="formulario.html" class="nav-link">Nuevo pedido</a>
-      <a href="info.html" class="nav-link">Lista de pedidos</a>
+      <a href="info.html" class="nav-link">Panadero</a>
       <a href="contact.html" class="nav-link">Contacto</a>
     </nav>
   </header>
@@ -34,18 +35,18 @@
         </caption>
         <tr>
           <!--Ingresa nombre-->
-          <td><label for="nombre">Nombre:</label></td>
-          <td><input type="text" id="nombre" name="nombre" form="form1" placeholder="José Alfonso" /></td>
+          <td><label for="nombre">Nombres:</label></td>
+          <td><input class="text" type="text" id="nombre" name="nombre" form="form1" placeholder="José Alfonso" /></td>
         </tr>
         <tr>
           <!--Ingresa apellido-->
-          <td><label for="apellido">Apellido:</label></td>
-          <td><input type="text" id="apellido" name="apellido" form="form1" placeholder="Escobar Mejía" /></td>
+          <td><label for="apellido">Apellidos:</label></td>
+          <td><input class="text" type="text" id="apellido" name="apellido" form="form1" placeholder="Escobar Mejía" /></td>
         </tr>
         <tr>
           <!--Ingresa telefono-->
           <td><label for="telefono">Telefono:</label></td>
-          <td><input type="tel" id="telefono" name="telefono" form="form1" placeholder="9632520429" /></td>
+          <td><input class="text" type="tel" id="telefono" name="telefono" form="form1" placeholder="9632520429" /></td>
         </tr>
         <tr>
         <!--Ingrese correo-->
@@ -56,7 +57,7 @@
       <!--Descripción-->
       <td ><label for="descripcion">Descripción general:</label></td>
       <td><input class="text" type="text" id="descripcion" name="descripcion" form="form1" placeholder="Quiero un pastel rosa para niña"></td>
-    </tr>
+      </tr>
       </table>
     </div>
     <!--Selecciona sabores-->
@@ -67,85 +68,92 @@
         </caption>
         <tr>
           <!--Chocolate-->
-          <td><input type="checkbox" id="topping1" name="topping1" value="Chocolate" /></td>
+          <td class="check"><input type="checkbox" id="topping1" name="topping1" value="Chocolate" /></td>
           <td><label for="topping1">Chocolate</label></td>
         </tr>
         <tr>
           <!--Vainilla-->
-          <td><input type="checkbox" id="topping2" name="topping2" value="Vainilla" /></td>
+          <td class="check"><input type="checkbox" id="topping2" name="topping2" value="Vainilla" /></td>
           <td><label for="topping2">Vainilla</label></td>
         </tr>
         <tr>
           <!--Limon-->
-          <td><input type="checkbox" id="topping3" name="topping3" value="Limón" /></td>
+          <td class="check"><input type="checkbox" id="topping3" name="topping3" value="Limón" /></td>
           <td><label for="topping3">Limón</label></td>
         </tr>
         <tr>
           <!--Naranja-->
-          <td><input type="checkbox" id="topping4" name="topping4" value="Naranja" /></td>
+          <td class="check"><input type="checkbox" id="topping4" name="topping4" value="Naranja" /></td>
           <td><label for="topping4">Naranja</label></td>
         </tr>
         <tr>
           <!--Fresas-->
-          <td><input type="checkbox" id="topping5" name="tooping5" value="Fresas" /></td>
+          <td class="check"><input type="checkbox" id="topping5" name="tooping5" value="Fresas" /></td>
           <td><label for="topping5">Fresas</label></td>
         </tr>
         <tr>
           <!--Galleta-->
-          <td><input type="checkbox" id="topping6" name="topping6" value="Galleta" /></td>
+          <td class="check"><input type="checkbox" id="topping6" name="topping6" value="Galleta" /></td>
           <td><label for="topping6">Galleta</label></td>
         </tr>
       </table>
-    </div>
-    <!--Selecciona adornos-->
-    <div class="formulario">
+      <br><br>
+      <!--Selecciona adornos-->
       <table >
         <caption>
           Selecciona los adornos
         </caption>
         <tr>
           <!--Fresas con mermelada-->
-          <td><input type="checkbox" id="adornos1" name="adornos1" value="Fresas con mermelada"/></td>
+          <td class="check"><input type="checkbox" id="adornos1" name="adornos1" value="Fresas con mermelada"/></td>
           <td><label for="adornos1">Fresas con mermelada</label></td>
         </tr>
         <tr>
           <!--Piña picada-->
-          <td><input type="checkbox" id="adornos2" name="adornos2" value="Piña picada" /></td>
+          <td class="check"><input type="checkbox" id="adornos2" name="adornos2" value="Piña picada" /></td>
           <td><label for="adornos2">Piña picada</label></td>
         </tr>
         <tr>
           <!--Chocolate-->
-          <td><input type="checkbox" id="adornos3" name="adornos3" value="Chocolate" /></td>
+          <td class="check"><input type="checkbox" id="adornos3" name="adornos3" value="Chocolate" /></td>
           <td><label for="adornos3">Chocolate</label></td>
         </tr>
         <tr>
           <!--Decoración con chantilly-->
-          <td><input type="checkbox" id="adornos4" name="adornos4" value="Decoración con chantilly" /></td>
+          <td class="check"><input type="checkbox" id="adornos4" name="adornos4" value="Decoración con chantilly" /></td>
           <td><label for="adornos4">Decoración con chantilly</label></td>
         </tr>
         <tr>
           <!--Vela de cumpleaños-->
-          <td><input type="checkbox" id="adornos5" name="adornos5" value="Vela de cumpleaños" /></td>
+          <td class="check"><input type="checkbox" id="adornos5" name="adornos5" value="Vela de cumpleaños" /></td>
           <td><label for="adornos5">Vela de cumpleaños</label></td>
         </tr>
         <tr>
           <!--Muñeco de superhéroe-->
-          <td><input type="checkbox" id="adornos6" name="adornos6" value="Muñeco de superhéroe" /></td>
+          <td class="check"><input type="checkbox" id="adornos6" name="adornos6" value="Muñeco de superhéroe" /></td>
           <td><label for="adornos6">Muñeco de superhéroe</label></td>
         </tr>
         <tr>
           <!--Muñeco de superhéroe-->
-          <td><input type="checkbox" id="adornos7" name="adornos7" value="Muñeco de superhéroe" /></td>
+          <td class="check"><input type="checkbox" id="adornos7" name="adornos7" value="Muñeco de superhéroe" /></td>
           <td><label for="adornos7">Novio y novia para bodas</label></td>
         </tr>
       </table>
+      <br>
+      <table class="botons">
+        <!--botones para resetear y enviar-->
+        <tr>
+        <td><input class="boton" type="reset" /></td>
+        <td><input class="boton" type="submit" /></td>
+        </tr>
+      </table>
     </div>
-    <!--botones para resetear y enviar-->
-    <input class="boton" type="reset" />
-    <input class="boton" type="submit" /><br /><br />
   </form>
   <!--Fin del formulario-->
-  </table>
+  
+  <footer>
+    <p>&#169; Copyright All rights reserved</p>
+  </footer>
 </body>
 
 </html>
