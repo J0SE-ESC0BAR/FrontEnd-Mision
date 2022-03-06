@@ -6,25 +6,31 @@
     font-family: 'Ubuntu', sans-serif;
 }*/
 body{
-    background-color:#D7D9D7;
+    background-color:#caf0f8;
     margin: 0;
 }
 header{
     display: flex;
     height: 100px;
-    background-color: hotpink;
+    background-color: #ffb9e4;
     justify-content: space-between;
     align-items: center;
 }
 main{
-    background-color: aqua;
+    background-color: #94d2bd;
     margin: 10px;
     padding: 10px;
+    border-radius: 6px;
 }
 .formulario{
-    background-color: aqua;
+    background-color: #94d2bd;
     margin: 10px;
     padding: 10px;
+    border-radius: 6px;
+}
+.text{
+    width: 300px; 
+    height: 30px;
 }
 footer{
     background-color: dodgerblue;
@@ -51,15 +57,16 @@ nav a{
     padding-right: 15px;
 }
 nav a:hover{
-    color: lightpink;
+    color: fuchsia;
 }
 .boton{
     width: 300px; 
     height: 30px;
 }
-h2{
+caption{
     font-family: 'Roboto Slab', sans-serif;
-    color: olivedrab;
+    color: #264653;
+    font-size: 25px;
 }
 h1{
     display: inline-block;
@@ -76,4 +83,7 @@ li {
     font-family: 'Source Sans Pro',sans-serif;
     color: black;
     font-size: 20px;
+}
+td {
+    padding: 3px;
 }
