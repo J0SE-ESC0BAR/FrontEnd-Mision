@@ -18,6 +18,8 @@ header{
 }
 main{
     background-color: aqua;
+    margin: 10px;
+    padding: 10px;
 }
 .formulario{
     background-color: aqua;
