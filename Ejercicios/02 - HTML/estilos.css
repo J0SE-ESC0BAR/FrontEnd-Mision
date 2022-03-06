@@ -6,16 +6,61 @@
     font-family: 'Ubuntu', sans-serif;
 }*/
 body{
-    background-color:#131515;
-    color: #F3FFB6;
-    text-align: center ;
+    background-color:#D7D9D7;
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 100px;
+    background-color: hotpink;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    background-color: aqua;
+}
+.formulario{
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    background-color: dodgerblue;
+    color:mediumblue;
+    padding: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Ubuntu','Lora',sans-serif;
+    color: blueviolet;
+    font-size: 20px;
+    text-decoration: none;
+}
+.logo img{
+    height: 100px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+nav a{
+    font-family: 'Ubuntu','Lora',sans-serif;
+    color: blueviolet;
+    text-decoration: none;
+    padding-right: 15px;
+}
+nav a:hover{
+    color: lightpink;
+}
+.boton{
+    width: 300px; 
+    height: 30px;
 }
 h2{
     font-family: 'Roboto Slab', sans-serif;
-    color: #006DAA;
+    color: olivedrab;
 }
-.menu{
-    text-align: center ;
+h1{
+    display: inline-block;
 }
 label{
     font-size: 20px;
@@ -27,14 +72,6 @@ ul, ol{
 }
 li {
     font-family: 'Source Sans Pro',sans-serif;
-    color: #D7D9D7;
+    color: black;
     font-size: 20px;
-}
-.title {
-    font-family: 'Ubuntu','Lora',sans-serif;
-    color: #00A878;
-    font-size: 50px;
-}
-footer{
-    color:#006DAA;
 }

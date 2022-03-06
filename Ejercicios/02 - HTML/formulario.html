@@ -1,129 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Formulario</title>
-    <link rel="stylesheet" href="estilos.css" />
-  </head>
-  <body>
-    <header>
-      <img
-        src="LogPasteleriav2.png"
-        alt="LogoPastelería"
-        width="150px"
-        height="150px"
-      />
-      <a href="index.html" style="text-decoration: none">
-        <h1 class="title">Pasteleria</h1></a
-      >
-    </header>
 
-    <h2>Ingresa tus datos en el formulario</h2>
-      <!--Formulario inicio-->
-      <form action="#" id="form1" method="post">
-        <!--Ingresa nombre-->
-            <label for="nombre">Nombre:</label>
-            <input
-              type="text"
-              id="nombre"
-              name="nombre"
-              form="form1"
-              placeholder="José Alfonso"
-            /><br /><br />
-        <!--Ingresa apellido-->
-        <label for="apellido">Apellido:</label>
-        <input
-          type="text"
-          id="apellido"
-          name="apellido"
-          form="form1"
-          placeholder="Escobar Mejía"
-        /><br /><br />
-        <!--Ingresa telefono-->
-        <label for="telefono">Telefono:</label>
-        <input
-          type="tel"
-          id="telefono"
-          name="telefono"
-          form="form1"
-          placeholder="9632520429"
-        />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
 
-        <!--Seleccona sabores-->
-        <table>
-          <td><th><h2>Ejemplo</h2></th></td>
-          <td><tr>ss</tr><tr>ff</tr></td>
-          <td><tr>aa</tr><tr>qq</tr></td>
-        </table>
-        <h2>Selecciona los sabores</h2>
-        <div class="check">
-          <input
-            type="checkbox"
-            id="topping1"
-            name="topping1"
-            value="Chocolate"
-          />
-          <label for="topping1">Chocolate</label><br />
-          <input
-            type="checkbox"
-            id="topping2"
-            name="topping2"
-            value="Vainilla"
-          />
-          <label for="topping2">Vainilla</label><br />
-          <input type="checkbox" id="topping3" name="topping3" value="Limón" />
-          <label for="topping3">Limón</label><br />
-          <input
-            type="checkbox"
-            id="topping4"
-            name="topping4"
-            value="Naranja"
-          />
-          <label for="topping4">Naranja</label><br />
-          <input
-            type="checkbox"
-            id="topping5"
-            name="tooping5"
-            value="Galleta"
-          />
-          <label for="topping5">Fresas</label><br />
-          <input
-            type="checkbox"
-            id="topping4"
-            name="topping4"
-            value="Naranja"
-          />
-          <label for="topping4">Galleta</label><br /><br />
-        </div>
+<body>
+  <header>
+    <!--Imagen de logo-->
 
-        <!--Selecciona adornos-->
-        <h2>Selecciona los adornos</h2>
-        <input
-          type="checkbox"
-          id="topping1"
-          name="topping1"
-          value="Chocolate"
-        />
-        <label for="topping1">Chocolate</label><br />
-        <input type="checkbox" id="topping2" name="topping2" value="Vainilla" />
-        <label for="topping2">Vainilla</label><br />
-        <input type="checkbox" id="topping3" name="topping3" value="Limón" />
-        <label for="topping3">Limón</label><br />
-        <input type="checkbox" id="topping4" name="topping4" value="Naranja" />
-        <label for="topping4">Naranja</label><br />
-        <input type="checkbox" id="topping5" name="tooping5" value="Galleta" />
-        <label for="topping5">Fresas</label><br />
-        <input type="checkbox" id="topping6" name="topping6" value="Naranja" />
-        <label for="topping6">Galleta</label><br />
-        <input type="checkbox" id="topping7" name="tooping7" value="Galleta" />
-        <label for="topping7">Fresas</label><br /><br />
-        <!--botones para resetear y enviar-->
-        <input type="reset" />
-        <input type="submit" /><br /><br />
-      </form>
-      <!--Fin del formulario-->
-    </table>
-  </body>
+    <a class="logo" href="index.html">
+      <img src="LogPasteleriav2.png" alt="LogoPastelería"/>
+      <h1>Pasteleria</h1>
+    </a>
+    <nav><!--Barra de navegacion-->
+      <a href="index.html" class="nav-link">Inicio</a>
+      <a href="#" class="nav-link">Sobre Nosotros</a>
+      <a href="#" class="nav-link">Contacto</a>
+    </nav>
+  </header>
+
+  <!--Formulario inicio-->
+  <form action="#" id="form1" method="post">
+    <div class="formulario">
+      <h2>Ingresa tus datos en el formulario</h2>
+      <!--Ingresa nombre-->
+      <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" form="form1" placeholder="José Alfonso" /><br /><br />
+    <!--Ingresa apellido-->
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" form="form1" placeholder="Escobar Mejía" /><br /><br />
+    <!--Ingresa telefono-->
+    <label for="telefono">Telefono:</label>
+    <input type="tel" id="telefono" name="telefono" form="form1" placeholder="9632520429" /></div>
+
+    <!--Seleccona sabores
+    <table>
+      <td>
+      <th>
+        <h2>Ejemplo</h2>
+      </th>
+      </td>
+      <td>
+        <tr>ss</tr>
+        <tr>ff</tr>
+      </td>
+      <td>
+        <tr>aa</tr>
+        <tr>qq</tr>
+      </td>
+    </table>-->
+    <!--Selecciona sabores-->
+    <div class="formulario">
+    <h2>Selecciona los sabores</h2>
+      <input type="checkbox" id="topping1" name="topping1" value="Chocolate" />
+      <label for="topping1">Chocolate</label><br />
+      <input type="checkbox" id="topping2" name="topping2" value="Vainilla" />
+      <label for="topping2">Vainilla</label><br />
+      <input type="checkbox" id="topping3" name="topping3" value="Limón" />
+      <label for="topping3">Limón</label><br />
+      <input type="checkbox" id="topping4" name="topping4" value="Naranja" />
+      <label for="topping4">Naranja</label><br />
+      <input type="checkbox" id="topping5" name="tooping5" value="Fresas" />
+      <label for="topping5">Fresas</label><br />
+      <input type="checkbox" id="topping6" name="topping6" value="Galleta" />
+      <label for="topping6">Galleta</label><br /><br />
+    </div>
+
+    <!--Selecciona adornos-->
+    <div class="formulario">
+    <h2>Selecciona los adornos</h2>
+    <input type="checkbox" id="adorno1" name="adorno1" value="Chocolate" />
+    <label for="adorno1">Chocolate</label><br />
+    <input type="checkbox" id="adorno2" name="adorno2" value="Vainilla" />
+    <label for="adorno2">Vainilla</label><br />
+    <input type="checkbox" id="adorno3" name="adorno3" value="Limón" />
+    <label for="adorno3">Limón</label><br />
+    <input type="checkbox" id="adorno4" name="adorno4" value="Naranja" />
+    <label for="adorno4">Naranja</label><br />
+    <input type="checkbox" id="adorno5" name="adorno5" value="Fresas" />
+    <label for="adorno5">Fresas</label><br />
+    <input type="checkbox" id="adorno6" name="adorno6" value="Galleta" />
+    <label for="adorno6">Galleta</label><br />
+    <input type="checkbox" id="adorno7" name="adorno7" value="Fresas" />
+    <label for="adorno7">Fresas</label><br /><br />
+  </div>
+    <!--botones para resetear y enviar-->
+    <input class="boton" type="reset" />
+    <input class="boton" type="submit" /><br /><br />
+  </form>
+  <!--Fin del formulario-->
+  </table>
+</body>
+
 </html>
