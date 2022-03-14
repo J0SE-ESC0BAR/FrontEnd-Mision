@@ -2,42 +2,204 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!--REFERENCIA CSS FONTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilos.css" />
     <title>Vacuncación</title>
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="contenedor">
-      <header class="header">
-          <a href="#" class="logo"><h1>Vaccination</h1></a>
-          <nav>
-            <ul>
-              <li><a href="#">Database</a></li>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">News</a></li>
-              <li><a href="#">Regulation</a></li>
-              <li><a href="#" class="boton">Hoax Buster</a></li>
-            </ul>
-          </nav>
-      </header>
-
-      <main class="contenido">
-        <div class="contenido1">
-          <h1>Fight Virus With Vaccines</h1>
-          <p>Let's stop this pandemic by killing the virus with a vanccine, don't let yourself and your family get infected</p>
-          <div class="widget-1">
-            <h3>Best protection</h3>
+    <header class="header container-fluid">
+      <a href="#" class="logo"><h1>Vaccination</h1></a>
+      <nav>
+        <ul>
+          <li><a href="#">Database</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Regulation</a></li>
+          <li><a href="#" class="boton">Hoax Buster</a></li>
+        </ul>
+      </nav>
+    </header>
+<section class="container-fluid">
+<div class="row">
+  <div class="col c-izq">
+    <h2>Fight Virus <br>Width Vaccines</h2>
+    <p>Let's stop this pandemic by killing virus<br> with avaccine, don't let yourself and your <br>family get infected</p>
+    <div class="etiq">
+      <p class="shield"><i class="bi-shield-fill-check ss"></i> Best proctection</p>
+      <p class="star"><i class="bi-star-fill ss"></i>Selected Vaccines</p>
+  </div>
+  </div>
+<div class="col"><img src="Imagen01.png" alt=""></div>
+</div>
+</section>
+<section class="schedule">
+  <i class="bi-clock-fill cl"></i>
+  <p class="clock">Schedule your vaccinations</p>
+</section>
+<section class="banner">
+  <i class="bi-geo-alt-fill loc ban"></i>
+  <div>
+  <p class="loca">Location</p><p class="jak">Jakarta Utara</p></div>
+  <i class="bi-calendar3 dat ban"></i>
+  <div>
+  <p class="date">Date </p><p class="jul" >08 July 2021</p></div>
+  <i class="bi-pencil-fill typ ban"></i>
+  <div>
+  <p class="type">Vaccine Type</p><p class="mod">Moderna</p></div>
+  <div>
+      <p class="bansub">Submit</p>
+  </div>
+</section>
+<section class="typevaccines">
+  <img src="Imagen04.png" alt="type vancines" width="1000px">
+</section>
+<section class="why">
+  <div class="col">
+  <h2>Why should I vaccine?</h2>
+  <p>In order to avoid any doubys about getting the COVID-19 vaccines, identify the following 4 benefists of COVID 19 vaccination:</p>
+</div>
+</section>
+<section class="topping">
+  <div class="minimize hov">
+      <i class="bi-sliders loc"></i>
+      <p class="topti">Minimize the spread of viruses</p>
+      <p class="topp">Vaccine has been proven efective to prevent someone from getting infected with Coronavirus</p>
+  </div>
+  <div class="forming hov">
+    <i class="bi-shield-fill-check loc" ></i>
+      <p class="topti">Forming antiboides</p>
+      <p class="topp">COVID-19 vaccine proven to help shape antibody response for immune system</p>
+  </div>
+  <div class="protect hov">
+      <i class="bi-people-fill loc"></i>
+      <p class="topti">Protecting people nearby</p>
+      <p class="topp">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+  </div>
+  <div class="creati hov">
+      <i class="bi-graph-up loc"></i>
+      <p class="topti">Creating group immunity</p>
+      <p class="topp">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity.</p>
+  </div>
+</section>
+<section class="second">
+  <div class="col s-izq"><img src="Imagen02.png" alt=""></div>
+  <div class="s-der">
+      <p class="prepa"><b>Preparaciones antes de la vacuna</b> </p>
+      <p class="succ">The success of vaccine is strongly influenced by the strength of the body's immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+      <div class="acco">
+          <button class="collapsible acordeon active hov">
+            <i class="bi-shield-fill-x loc"></i>
+              <p>Avoid alcoholic beverages</p>
+          </button>
+          <button class="collapsible acordeon active hov">
+            <i class="bi-x-square-fill loc"></i>
+              <p>Avoid stress</p>
+          </button>
+          <div class="content"><p>Stress has profound effect on immune work. Moreover, prolonged stress can increase cortisol production and oxidative stress in the body.</p></div>
+          <button class="collapsible acordeon active hov">
+            <i class="bi-bar-chart-fill loc"></i>
+              <p>Eat healthy food</p>
+          </button>
+          <button class="collapsible acordeon active hov">
+            <i class="bi-check-square-fill loc"></i>
+              <p>Get enough sleep</p>
+          </button>
+          <button class="collapsible acordeon active hov">
+            <i class="bi-heart-fill loc"></i>
+              <p>Excersise or physical activity</p>
+          </button>
           </div>
-          <div class="widget-2">
-            <h3>Selected Vaccines</h3>
+      </div>
+  </div>
+</section>
+<section class="info">
+  <h2>Emergency Contact</h2>
+  <p>Contact one of the contacts below if you or your famili feel unwell an have similar sympthoms such as COVID-19, make sure you also take care of yourself before reporting to us:</p>
+</section>
+<section class="tercer">
+  <div class="t-izq">
+      <div class="contact">
+          <div class="thov">
+              <div class="tertop">
+                  <i class="bi-telephone-fill loc"></i>
+                  <div><p class="tt">Call </p><p class="ts" >021.123.145.14</p><p></p></div>
+              </div>
+              <p class="now">Call Now</p>
           </div>
-        </div>
-      </main>
-      <footer class="footer">
+          <div class="thov">
+              <div class="tertop">
+                  <i class="bi-chat-dots-fill loc"></i>
+                  <div><p class="tt">Chat </p><p class="ts">021.123.145.14</p><p></p></div>
+              </div>
+              <p class="now">Chat Now</p>
+          </div>
+          <div class="thov">
+              <div class="tertop">
+                  <i class="bi-camera-video-fill loc"></i>
+                  <div><p class="tt">Video call </p><p class="ts">021.123.145.14</p><p></p></div>
+              </div>
+              <p class="now">Video Call Now</p>
+          </div>
+          <div class="thov">
+              <div class="tertop">
+                  <i class="bi-envelope-fill loc"></i>
+                  <div><p class="tt">Message </p><p class="ts">021.123.145.14</p><p></p></div>
+              </div>
+              <p class="now">Message Now</p>
+          </div>
+      </div>
+  </div>
+  <div><img src="Imagen03.png" alt=""></div>
+</section>
+<section class="footer">
+  <div class="firstfoot">
+      <div class="vacin">
+          <h2 class="vacun" >Vaccination</h2>
+          <p class="our" >Our goal is to help the world free from the ongoing pandemic</p>
+      </div>
+      <div>
+          <h2 class="f-der">About</h2>
+          <p class="dour">About Us</p>
+          <p class="dour">Features</p>
+          <p class="dour">News &amp; Blog</p>
+      </div>
+      <div>
+          <h2 class="f-der">Company</h2>
+          <p class="dour">How We Work?</p>
+          <p class="dour">Capital</p>
+          <p class="dour">Security</p>
+      </div>
+      <div>
+          <h2 class="f-der">Support</h2>
+          <p class="dour">FAQs</p>
+          <p class="dour">Support Center</p>
+          <p class="dour">Contact Us</p>
+      </div>
+  </div>
+  <div class="secondfoot">
+      <p class="fdour">@2021 Vacinnation. All rights reserved</p>
+      <p class="fdour">Terms &amp; Agreements &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Privacy Policy</p>
+  </div>
+</section>
 
-      </footer>
-    </div>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
