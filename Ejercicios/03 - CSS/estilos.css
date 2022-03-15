@@ -92,46 +92,8 @@ html{
   transition: .02s;
 }
 
-.fbox{
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgb(0, 88, 189);
-  color: white;
-  width: 150px;
-  height: 47px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 3px;
-  margin-left: 15px;
-  box-shadow: 0px 5px 8px rgba(0, 88, 189, 0.3);
-  font-size: 17px;
-  margin-top: 12px;
-}
 
-.fbox:hover{
-  transform: scale(1.05,1.05);
-  box-shadow: 0px 2px 8px rgba(0,0, 0, 0.3);
-  transition: 0.2s;
-  cursor: pointer;
-}
-
-.first{
-  margin-top: 2px;
-  position: relative;
-  display:grid;
-  grid-template-columns: 1.3fr 1.2fr;
-}
-
-
-.c-der{
-  background-image: url(assets/fimg4.png);
-  height: 60rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.c-izq{
+.izq1{
   padding-top: 2.9rem;
   padding-left: 7.4rem;
   background-image: url(assets/ffond2.png);
@@ -140,9 +102,10 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
+  color: #69758b;
 }
 
-.c-izq h2{
+.izq1 h2{
   font-family: 'Montserrat', sans-serif;
   color: rgb(0, 88, 189);
   font-weight: 600;
@@ -354,14 +317,14 @@ html{
   grid-template-columns: 1fr 1.3fr;
 }
 
-.s-izq{
+.izq2{
   height: 40rem;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.s-der{
+.der2{
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 3rem;
@@ -513,14 +476,8 @@ html{
   grid-template-rows: 38rem;
 }
 
-.t-der{
-  height: 40rem;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 
-.t-izq{
+.izq3{
   padding-top: 2rem;
   padding-left: 5rem;
   padding-right: 3rem;
@@ -622,7 +579,7 @@ html{
   color: rgb(0, 88, 189);
 }
 
-.f-der{
+.der5{
   font-family: 'Montserrat', sans-serif;
   font-size: 28px;
   color: rgb(0, 88, 189);
