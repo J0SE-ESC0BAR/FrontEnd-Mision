@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.116);
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+.pokedex{
+    background-color: rgb(225, 236, 255);
+    width: 840px;
+    height: 706px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.poke-izq{
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 650px;
+    border-radius: 35px 50px 35px 35px;
+    padding: 30px;
+    box-shadow: 15px 10px rgb(194, 194, 194);
+    position: relative;
+    border: 15px solid rgb(255, 101, 101);
+}
+.poke-izq img{
+    background-color: rgb(255, 235, 235);
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+    margin: 30px auto;
+}
+.poke-izq h1{
+    text-align: center;
+    font-weight: bold;
+}
+.poke-izq .entrada, .boton-busqueda{
+    margin-top: 20px;
+    height: 35px;
+    width: 200px;
+    padding: 0 10px 0 10px;
+}
+.boton-busqueda{
+    background-color: rgb(255, 94, 94);
+}
+
+.poke-der{
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px 35px 35px 0;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    border: 15px solid rgb(255, 101, 101);
+    box-shadow: 15px 10px rgb(194, 194, 194);
+    margin: 30px 30px 30px 0;
+    padding: 30px;
+    position: absolute;
+    right: -435px;
+    top: -50px;
+}
