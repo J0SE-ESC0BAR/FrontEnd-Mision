@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{titulo}}</h1>
+
+      <ul>
+          <!--Con string-->
+          <li v-for="fruta of frutas">{{fruta}}</li>
+          <br>
+          <!--Con objetos-->
+        <li v-for="fruta of Frutas1">
+            {{fruta.cantidad}} - {{fruta.nombre}}
+            <span v-if="fruta.cantidad === 0"> - Sin Stock</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+  <script src="01.js"></script>
+</html>
