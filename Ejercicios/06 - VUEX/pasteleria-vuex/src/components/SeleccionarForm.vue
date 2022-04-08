@@ -1,65 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Formulario</title>
-  <link rel="stylesheet" href="estilos.css" />
-</head>
-
-<body>
-  <header>
-    <!--Imagen de logo-->
-
-    <a class="logo" href="index.html">
-      <img src="LogoPasteleriav3.png" alt="LogoPastelería" />
-      <h1>Pasteleria</h1>
-    </a>
-    <nav>
-      <!--Barra de navegacion-->
-      <a href="index.html" class="nav-link">Inicio</a>
-      <a href="formulario.html" class="nav-link">Nuevo pedido</a>
-      <a href="info.html" class="nav-link">Panadero</a>
-      <a href="contact.html" class="nav-link">Contacto</a>
-    </nav>
-  </header>
-
-  <!--Formulario inicio-->
-  <form action="#" id="form1" method="post"> 
-    <div class="formulario">
-      <table >
-        <caption>
-          Ingresa tus datos en el formulario
-        </caption>
-        <tr>
-          <!--Ingresa nombre-->
-          <td><label for="nombre">Nombres:</label></td>
-          <td><input class="text" type="text" id="nombre" name="nombre" form="form1" placeholder="José Alfonso" /></td>
-        </tr>
-        <tr>
-          <!--Ingresa apellido-->
-          <td><label for="apellido">Apellidos:</label></td>
-          <td><input class="text" type="text" id="apellido" name="apellido" form="form1" placeholder="Escobar Mejía" /></td>
-        </tr>
-        <tr>
-          <!--Ingresa telefono-->
-          <td><label for="telefono">Telefono:</label></td>
-          <td><input class="text" type="tel" id="telefono" name="telefono" form="form1" placeholder="9632520429" /></td>
-        </tr>
-        <tr>
-        <!--Ingrese correo-->
-        <td><label for="correo">Correo electrónico:</label></td>
-        <td><input class="text" type="email" id="correo" name="correo" form="form1" placeholder="josealfonsoescobarmejia@gmail.com"></td>
-      </tr>
-      <tr>
-      <!--Descripción-->
-      <td ><label for="descripcion">Descripción general:</label></td>
-      <td><input class="text" type="text" id="descripcion" name="descripcion" form="form1" placeholder="Quiero un pastel rosa para niña"></td>
-      </tr>
-      </table>
-    </div>
+<template>
     <!--Selecciona sabores-->
     <div class="formulario">
       <table >
@@ -139,21 +78,39 @@
           <td><label for="adornos7">Novio y novia para bodas</label></td>
         </tr>
       </table>
-      <br>
-      <table class="botons">
-        <!--botones para resetear y enviar-->
-        <tr>
-        <td><input class="boton" type="reset" /></td>
-        <td><input class="boton" type="submit" /></td>
-        </tr>
-      </table>
     </div>
-  </form>
-  <!--Fin del formulario-->
-  
-  <footer>
-    <p>&#169; Copyright All rights reserved</p>
-  </footer>
-</body>
+</template>
 
-</html>
+<script>
+export default {
+  name: "SeleccionarForm",
+};
+</script>
+
+<style scoped>
+input {
+  margin: 10px 0 0 30px;
+  width: 20px;
+  height: 20px;
+}
+.check {
+  width: 25px;
+  height: 20px;
+}
+form td {
+  color: darkslateblue;
+}
+h1 {
+  display: inline-block;
+}
+label {
+  margin: 10px 0 0 10px;
+  font-size: 22px;
+}
+caption {
+  font-family: "Roboto Slab", sans-serif;
+  color: #264653;
+  font-size: 25px;
+  width: 400px;
+}
+</style>
